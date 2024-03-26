@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>George Antwi Jr Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/junior.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/31471b5735.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="images/junior-phone.png" alt="logo">
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+      <p>Web Developer</p>
+      <h1>Hi, I'm <span>George</span><br>Jhunior from Ghana</h1>
+    </div>
+  </div>
+</div>
+
+<!--about-->
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about_col-1">
+        <img src="images/me 2.jpg">
+      </div>
+      <div class="about_col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>My name is George Kofi Ampofo Antwi Jhunior. I'm a 21 year old student in my second year of university. My school is known as Ghana Communications and Technology University (GCTU) for short. I major in IT and have been interested in anything IT related since i was a kid. My passion for web developing and designing started when i was in junior high and i have worked hard to develop my skills in this field.</p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Web Development</span><br>Web App Development</li>
+            <li><span>UI/UX</span><br>Web Desigining</li>
+            <li><span>Aspring Programmer</span><br>Building Video Games</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2023 - Current</span><br>Bsc IT and Personal Web Developing Projects at GCTU</li>
+            <li><span>2018 - 2021</span><br>Html and Css Training at Life International College</li>
+            <li><span>2016 - 2017</span><br>Mastering a small portion of python and c++ programming languages</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2023 - Current</span><br>Bsc IT and Personal Web Developing Projects at GCTU</li>
+            <li><span>2018 - 2021</span><br>Html and Css Training at Life International College</li>
+            <li><span>2016 - 2017</span><br>Mastering a small portion of python and c++ programming languages</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Services-->
+
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title"> My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fas fa-code"></i>
+        <h2>Web Development</h2>
+        <p>Web development, also known as website development, refers to the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser.</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>UI/UX Design</h2>
+        <p>The UI UX Designer gathers and evaluates user requirements in collaboration with Product Managers. They use their skills to illustrate design ideas using storyboards, process flows, or sitemaps.</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store"></i>
+        <h2>Programming</h2>
+        <p>Computer programming is the process of writing code to facilitate specific actions in a computer, application or software program, and instructs them on how to perform.</p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Portfolio-->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work 1-1.jpg">
+        <div class="layer">
+          <h3>Web Developing</h3>
+          <p>Website development, refers to the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work 2-2.png">
+        <div class="layer">
+          <h3>UI/UX Design</h3>
+          <p>The UI/UX use their skills to illustrate design ideas using storyboards, process flows, or sitemaps.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div> 
+      </div>
+      <div class="work">
+        <img src="images/work 3.jpg">
+        <div class="layer">
+          <h3>Programming</h3>
+          <p>Computer programming is the process of writing code to facilitate specific actions in a computer, application or software program, and instructs them on how to perform.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+<!--Contact-->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p> <i class="fa-solid fa-paper-plane"></i>georgeantwi96@gmail.com</p>
+        <p> <i class="fa-solid fa-phone"></i>+233507908883 / +233558290328</p>
+        <div class="social-icons">
+          <a href="https://web.facebook.com/KofiElectric/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://x.com/antwijhunior?s=21"><i class="fa-brands fa-square-x-twitter"></i></a>
+          <a href="https://www.instagram.com/jhu__n.ior?igsh=Yjhyc3VncjRxdGdu&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+          <a href="http://wa.me/233507908883"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <a href="images/my-cv_2.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Messaage"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p> Copyright &copy; Jhunior Antwi <i class="fa-solid fa-heart"></i> , All rights reserved.</p>
+  </div>
+</div>
+
+<script>
+
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab (tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+
+</script>
+
+<script>
+
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwAaS0HLne0PL7E8yBt4pJlobIenJhqAENBRPBKhiAUndcmRcOhKyPP4ZT_MJ4vTHbd/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent sucessfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+  
+</body>
+</html>
